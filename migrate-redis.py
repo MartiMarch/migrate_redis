@@ -90,24 +90,22 @@ class redisComponent:
         def getValue(self):
                 return self.value
 
-# Redis-PRE
 OLD_HOST = ""
 OLD_PORT = 0
 OLD_PASS = ""
 OLD_USER = None
 #OLD_DB = 0
 OLD_SSL = True
-OLD_SSL_CERT = …/oldCert.crt"
+OLD_SSL_CERT = "…/oldCert.crt"
 OLD_VER = 4
 
-# Redis-PRE-new (6.0)
 NEW_HOST = ""
 NEW_PORT = 0
 NEW_PASS = ""
 NEW_USER = ""
 #NEW_DB = 0
 NEW_SSL = True
-NEW_SSL_CERT = …/newCert.crt"
+NEW_SSL_CERT = "…/newCert.crt"
 NEW_VER = 6
 
 n = 0
